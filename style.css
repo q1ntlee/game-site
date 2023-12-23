@@ -11,3 +11,14 @@ body {
     width: 416px;
     justify-content: center;
 }
+@media (max-width: 991px) {
+    .menu-bg {
+        background-color: #323335;
+    }
+    .menu-btn {
+        background-color: #fff;
+    }
+    .nav-link:nth-child(2) {
+        margin: 0 !important;
+    }
+}
